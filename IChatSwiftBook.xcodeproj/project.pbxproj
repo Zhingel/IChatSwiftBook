@@ -10,7 +10,6 @@
 		EEE14A1226D2AFE20076344A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A1126D2AFE20076344A /* AppDelegate.swift */; };
 		EEE14A1426D2AFE20076344A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A1326D2AFE20076344A /* SceneDelegate.swift */; };
 		EEE14A1626D2AFE20076344A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A1526D2AFE20076344A /* ViewController.swift */; };
-		EEE14A1926D2AFE20076344A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A1726D2AFE20076344A /* Main.storyboard */; };
 		EEE14A1B26D2AFE40076344A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A1A26D2AFE40076344A /* Assets.xcassets */; };
 		EEE14A1E26D2AFE40076344A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE14A1C26D2AFE40076344A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		EEE14A1126D2AFE20076344A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE14A1326D2AFE20076344A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EEE14A1526D2AFE20076344A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEE14A1826D2AFE20076344A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE14A1A26D2AFE40076344A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE14A1D26D2AFE40076344A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE14A1F26D2AFE40076344A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				EEE14A1126D2AFE20076344A /* AppDelegate.swift */,
 				EEE14A1326D2AFE20076344A /* SceneDelegate.swift */,
 				EEE14A1526D2AFE20076344A /* ViewController.swift */,
-				EEE14A1726D2AFE20076344A /* Main.storyboard */,
 				EEE14A1A26D2AFE40076344A /* Assets.xcassets */,
 				EEE14A1C26D2AFE40076344A /* LaunchScreen.storyboard */,
 				EEE14A1F26D2AFE40076344A /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				EEE14A1E26D2AFE40076344A /* LaunchScreen.storyboard in Resources */,
 				EEE14A1B26D2AFE40076344A /* Assets.xcassets in Resources */,
-				EEE14A1926D2AFE20076344A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEE14A1726D2AFE20076344A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEE14A1826D2AFE20076344A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEE14A1C26D2AFE40076344A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
