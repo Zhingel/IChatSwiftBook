@@ -19,6 +19,9 @@
 		EEE14A2E26D2D9A80076344A /* UIImageView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A2D26D2D9A80076344A /* UIImageView + extension.swift */; };
 		EEE14A3126D33C650076344A /* buttonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A3026D33C650076344A /* buttonFormView.swift */; };
 		EEE14A3326D345590076344A /* stackVIew + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A3226D345590076344A /* stackVIew + extension.swift */; };
+		EEE14A3526D3490B0076344A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A3426D3490B0076344A /* SignUpViewController.swift */; };
+		EEE14A3726D396BE0076344A /* OneLineTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A3626D396BE0076344A /* OneLineTextfield.swift */; };
+		EEE14A5426D3AEFA0076344A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE14A5326D3AEFA0076344A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EEE14A2D26D2D9A80076344A /* UIImageView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extension.swift"; sourceTree = "<group>"; };
 		EEE14A3026D33C650076344A /* buttonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonFormView.swift; sourceTree = "<group>"; };
 		EEE14A3226D345590076344A /* stackVIew + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "stackVIew + extension.swift"; sourceTree = "<group>"; };
+		EEE14A3426D3490B0076344A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EEE14A3626D396BE0076344A /* OneLineTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextfield.swift; sourceTree = "<group>"; };
+		EEE14A5326D3AEFA0076344A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 				EEE14A1126D2AFE20076344A /* AppDelegate.swift */,
 				EEE14A1326D2AFE20076344A /* SceneDelegate.swift */,
 				EEE14A1526D2AFE20076344A /* AuthViewController.swift */,
+				EEE14A3426D3490B0076344A /* SignUpViewController.swift */,
+				EEE14A5326D3AEFA0076344A /* LoginViewController.swift */,
 				EEE14A3026D33C650076344A /* buttonFormView.swift */,
 				EEE14A2F26D33A2B0076344A /* extension */,
 				EEE14A1A26D2AFE40076344A /* Assets.xcassets */,
@@ -83,6 +91,7 @@
 		EEE14A2F26D33A2B0076344A /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				EEE14A3626D396BE0076344A /* OneLineTextfield.swift */,
 				EEE14A3226D345590076344A /* stackVIew + extension.swift */,
 				EEE14A2B26D2D7780076344A /* Label + extension.swift */,
 				EEE14A2726D2D2CF0076344A /* UIFont + extencion.swift */,
@@ -162,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE14A3526D3490B0076344A /* SignUpViewController.swift in Sources */,
 				EEE14A1626D2AFE20076344A /* AuthViewController.swift in Sources */,
 				EEE14A2826D2D2CF0076344A /* UIFont + extencion.swift in Sources */,
 				EEE14A1226D2AFE20076344A /* AppDelegate.swift in Sources */,
@@ -169,8 +179,10 @@
 				EEE14A3126D33C650076344A /* buttonFormView.swift in Sources */,
 				EEE14A2A26D2D4420076344A /* UIColor + extencion.swift in Sources */,
 				EEE14A2E26D2D9A80076344A /* UIImageView + extension.swift in Sources */,
+				EEE14A3726D396BE0076344A /* OneLineTextfield.swift in Sources */,
 				EEE14A1426D2AFE20076344A /* SceneDelegate.swift in Sources */,
 				EEE14A2C26D2D7780076344A /* Label + extension.swift in Sources */,
+				EEE14A5426D3AEFA0076344A /* LoginViewController.swift in Sources */,
 				EEE14A2626D2CDEF0076344A /* UIButton + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

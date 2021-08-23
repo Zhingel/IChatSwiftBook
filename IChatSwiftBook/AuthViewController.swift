@@ -22,6 +22,17 @@ import UIKit
         view.backgroundColor = .white
         setupconstraints()
     }
+}
+
+
+
+
+
+
+
+
+
+extension AuthViewController {
     private func setupconstraints() {
         view.addSubview(logoImageView)
         let googleView = buttonFormView(label: googleLabel, button: googleButton)
@@ -39,8 +50,9 @@ import UIKit
         logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
     }
-
 }
+
+
 
 
 import SwiftUI
